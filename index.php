@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Кликер</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="grey" class="hidden"></div>
+	<div id="popUp" class="hidden green"><div id="close">X</div><span id="mistake"></span></div>
+<div id="game">
+<div id="upgrade" class="green">
+	<button  id="openShop">Открыть магазин</button>
+	<button id="settings">Настройки</button>
+	<button class="hidden" id="shopClick">Просто клики</button>
+	<button class="hidden" id="backShop">Назад</button>
+	<button class="hidden" id="backSettings">Назад</button>
+	<button class="hidden" id="shopClickPerMinute">Клики в минуту</button></br>
+	<button class="hidden" id="back">Назад</button>
+		<form id="form" class="hidden">
+		<label for="colorPicker">Выбрать цвет интерфейса:</label>
+		<input type="color" name="colorPicker" id="colorPickerId">
+		<input type="submit" id="colorPickerSubmit">
+	</form>
+	<button class="hidden" id="upgrade1">Купить апгрейд 1lvl(-10 кликов)(+1клик)</button>
+	<button class="hidden" id="upgrade2">Купить апгрейд 2lvl(-20 кликов)(+2клик)</button>
+	<button class="hidden" id="upgrade3">Купить апгрейд 3lvl(-30 кликов)(+3клик)</button>
+	<button class="hidden" id="upgrade4">Купить апгрейд 4lvl(-40 кликов)(+4клик)</button>
+	<button class="hidden" id="upgrade5">Купить апгрейд 5lvl(-50 кликов)(+5клик)</button>
+</div>
+<div id="clicker" class="green">
+	<h1 id="h1">Кликов сделано:0</h1>
+	<p id="clickPerMinute">Кликов в минуту:1</p>
+	<button id="button">Click!</button>
+</div>
+</div>
+	<script src="script.js"></script>
+</div>
+</body>
+</html>
